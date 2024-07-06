@@ -3,12 +3,15 @@
 
 
 
-/* shared-color */
+/* shared-style */
 .text-color{
     color: #FD6E0A;
 }
 .Dark2-color{
     color: #474747;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
 }
 /* button styled */
 .btn{
@@ -19,6 +22,15 @@
     border: 0;
     border-radius: 5px;
     font-size: 20px;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
 }
 /* header style */
 .header{
@@ -62,15 +74,45 @@ ul li a{
 .banner-grettings{
     font-weight: 600;
     font-size: 45px;
+    margin: 0;
+    margin-top: 80px;
 }
 .banner-title{
     font-weight: bold;
     font-size: 85px;
+    margin: 0;
 }
 .banner-description{
     font-size: 18px;
+    margin-bottom: 30px;
 }
 .banner-pic{
     width: 500px;
     height: 500px;
+}
+
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about style */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
+}
+.item-title{
+    color: #757575;
+}
+.back{
+    background-color: white;
 }
