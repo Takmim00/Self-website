@@ -141,3 +141,34 @@ main section{
     height: 280px;
     width: 267px;
 }
+/* resume colum style */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-colum-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+.expriencce-title{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.experience-subtitle{
+    font-weight: 500px;
+    font-size: 20px;
+    margin-top: 5px;
+    color: rgba(117, 117, 117, 1);
+}
+.experience-description{
+    font-size: 16px;
+    color: rgba(117, 117, 117, 1);
+}
+.resume hr{
+    margin: 30px 5px;
+}
+
+.resume-download{
+    margin-top: 56px;
+}
